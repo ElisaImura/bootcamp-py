@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root{
+  --main-color: #4d9edb;
+  --scnd-color: #5db0f0;
+  --bkground-color: #D9E2E7;
+  --itemBckground-color: #9DD3F1;
+  --white-color: #fff;
+}
+
+body{
+  background-color: var(--bkground-color);
+}
+
+.banner_img{
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.media_img{
+  width: 200px;
+  max-height: inherit;
+}
+
+.media{
+  padding: 10px;
+  display: flex;
+  margin: 30px 130px;
+  background-color: var(--itemBckground-color);
+  border: var(--scnd-color);
+  border-radius: 10px;
+  max-height: 190px;
+  max-width: inherit;
+}
+
+
+.media_content p{
+  line-height: 25px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: inherit;
+  line-height: 28px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding-top: 5px;
+}
+
+.media img{
+  flex-shrink: 0;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.media_content{
+  display: block;
+  max-width: 1029px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.nav_bar{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.nav_bar li{
+  display: inline-block;
+}
+
+.form{
+  padding-top: 5px;
+}
+
+.nav_bar li form {
+  margin-left: 750px;
+  display: inline-block;
+  border: var(--white-color) solid 1px;
+  border-radius: 20px;
+  line-height: 20px;
+  align-content: center;
+}
+
+.nav_bar li form input{
+  background: none;
+  border: 0;
+  color: var(--white-color);
+  outline: none;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.nav_bar li form button{
+  background: none;
+  border: 0;
+  outline: none;
+  height: 25px;
+  padding-right: 5px;
+}
+
+::placeholder{
+  color: var(--white-color);
+}
+
+.nav_link{
+  display: inline-block;
+  color: var(--white-color);
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.nav_link:hover{
+  background: var(--scnd-color);
+}
+
+nav{
+  background-color: var(--main-color);
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+}
+
+.products{
+  display: inline;
+  align-items: center;
+}
+
+.product_img{
+  width: 120px;
+  height: 180px;
+}
+
+.gallery{
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+ .content{
+   width: 20%;
+   margin: 15px;
+   box-sizing: border-box;
+   float: left;
+   text-align: center;
+   border-radius: 20px;
+   cursor: pointer;
+   padding: 10px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ }
+
+ .content h3{
+   text-align: center;
+   font-size: 30px;
+   margin: 0;
+   padding-top: 10px;
+ }
